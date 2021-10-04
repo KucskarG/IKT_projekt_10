@@ -1,0 +1,9 @@
+x = int (input('Irjon be egy számot '))
+y = int (input('Irjon be egy számot '))
+if ( x > y ):
+    print('Az első szám nagyobb')
+elif(x==y)
+    print('A két szám egyenlő')
+else:
+    print('A második volt a nagyobb')
+    

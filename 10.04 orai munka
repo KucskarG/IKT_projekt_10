@@ -1,20 +1,34 @@
-**1**
-
 nev = (input('Mi a neved? '))
 print ('Szia ' + nev + '!')
 
-**2**
+
 
 print ('*************')
-**3**
+
 print ('*o*o*o*o*o*o')
 
-**4**
+
 a = int (input('Irjon be egy számot '))
 b = int (input('Irjon mégegy számot '))
 print('A két szám összege: ', a+b)
-**5**
+
 a = int (input('Irjon be egy számot '))
 b = int (input('Irjon mégegy számot '))
 c = int (input('Irjon egy harmadik számot '))
 print('A három szám összege: ', a+b+c)
+
+
+
+a = int (input('Irjon be egy számot '))
+b = int (input('Irjon mégegy számot '))
+print('A két szám különbsége: ', a-b)
+
+
+a = int (input('Irjon be egy számot '))
+b = int (input('Irjon mégegy számot '))
+print('A két szám szorzata: ', a*b)
+
+
+a = int (input('Irjon be egy számot '))
+b = int (input('Irjon mégegy számot '))
+print('A két szám hányadosa: ', a/b)

@@ -1,0 +1,7 @@
+magas = int(input('Hány cm vagy?: '))
+if (magas > 180):
+  print('te zsiráf geci.')
+elif (magas < 170):
+    print('te törpe geci.')
+else:
+    print('átlagos magasságú vagy')

@@ -3,3 +3,14 @@ nev2 =  float (input('Hanyas a floatja= '))
 nev3 = str (input('Mi a skin neve?= '))
 nev4 = int (input('Hány van belőle?= '))
 print ('Neked ' + nev1 + ' fegyvered van aminek ' ,nev2, ' floatja van és ' ,nev3, ' a skin ami rajta van és ' ,nev4, ' van belőle')
+
+
+
+
+magas = int(input('Hány cm vagy?: '))
+if (magas > 180):
+  print('te zsiráf geci.')
+elif (magas < 170):
+    print('te törpe geci.')
+else:
+    print('átlagos magasságú vagy')

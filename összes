@@ -1,1 +1,5 @@
-
+nev1 =  str (input('Milyen fegyvered van?= '))
+nev2 =  float (input('Hanyas a floatja= '))
+nev3 = str (input('Mi a skin neve?= '))
+nev4 = int (input('Hány van belőle?= '))
+print ('Neked ' + nev1 + ' fegyvered van aminek ' ,nev2, ' floatja van és ' ,nev3, ' a skin ami rajta van és ' ,nev4, ' van belőle')

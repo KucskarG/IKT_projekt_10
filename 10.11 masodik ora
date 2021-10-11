@@ -1,9 +1,9 @@
-hetfo= (input('Milyen órád van hétfőn?'))
-kedd= (input('Milyen órád van hétfőn?'))
-szerda= (input('Milyen órád van hétfőn?'))
-csutortok= (input('Milyen órád van hétfőn?'))
-pentek= (input('Milyen órád van hétfőn?'))
 
+hetfo= (input('Milyen órád van hétfőn?'))
+kedd= (input('Milyen órád van kedden?'))
+szerda= (input('Milyen órád van szerdán?'))
+csutortok= (input('Milyen órád van csütörtök?'))
+pentek= (input('Milyen órád van péntek?'))
 
 
 

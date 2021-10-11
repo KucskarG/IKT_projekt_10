@@ -1,0 +1,27 @@
+szam = int(input('Adj meg egy számot! '))
+szam2 = int(input('Adj meg egy számot! '))
+szam3 = int(input('Adj meg egy számot! '))
+x= min(szam,szam2,szam3)
+print ('a legkissebb szám: ' , x)
+
+szam = int(input('Adj meg egy számot! '))
+szam2 = int(input('Adj meg egy számot! '))
+szam3 = int(input('Adj meg egy számot! '))
+x= max(szam,szam2,szam3)
+print ('a legnagyobb szám: ' , x)
+
+
+
+pont = int(input('Ird be a pontszámod: '))
+if (pont < 50):
+  print('Egyes')
+elif (50 <=pont<60 ):
+    print('Kettes')
+
+elif (60 <=pont<70 ):
+    print('Hármas')
+
+elif (70 <=pont<85 ):
+    print('Négyes')   
+else:
+    print('Ötös')

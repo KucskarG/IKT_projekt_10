@@ -1,0 +1,7 @@
+szam = int(input('Adj meg egy számot! '))
+szam2 = int(input('Adj meg egy számot! '))
+
+x= max(szam,szam2)
+print ('a legnagyobb szám: ' , x)
+if (szam==szam2):
+    print('egyenlő')

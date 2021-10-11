@@ -1,0 +1,24 @@
+hetfo= (input('Milyen órád van hétfőn?'))
+kedd= (input('Milyen órád van hétfőn?'))
+szerda= (input('Milyen órád van hétfőn?'))
+csutortok= (input('Milyen órád van hétfőn?'))
+pentek= (input('Milyen órád van hétfőn?'))
+
+
+
+
+
+pont = int(input('Melyik nap oraendjét akarok látni '))
+if (pont==hetfo):
+  print('Ilyen órád lesz ma ', hetfo)
+elif (pont==kedd):
+    print('Ilyen órád lesz ma ', kedd)
+
+elif (pont==szerda):
+    print('Ilyen órád lesz ma ', szerda)
+
+elif (pont==csutortok):
+    print('Ilyen órád lesz ma ', csutortok) 
+
+elif (pont==pentek):
+    print('Ilyen órád lesz ma ', pentek) 

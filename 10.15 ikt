@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyakorlás</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+       <h1>Awesome landing page
+       </h1>
+       <div class="newsletter">
+<h3>
+    Newsletter
+    <p>Sign a to newsletter to recieve awesome news about freshair.</p>
+    <form>
+        <input type=text>
+        <button type=submit>subcribe</button>
+        
+    </form>
+</h3>
+       </div>
+   </div> 
+</body>
+</html>
+
+
+CSS------------------
+
+.container {
+
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.newsletter {
+    color: gray;
+    border: solid thin #cfcfcf;
+    border-radius: 3px;
+    pedding: 10px;
+
+}
+.newsletter button {
+    background-color: #3cb878;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+.newsletter input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: solid #cfcfcf;
+    border-radius: 3px;
+margin-bottom: 4px;
+box-sizing: border-box;
+
+}
+
+.newsletter {
+    margin-top: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

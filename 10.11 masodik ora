@@ -1,24 +1,25 @@
 
-hetfo= (input('Milyen órád van hétfőn?'))
-kedd= (input('Milyen órád van kedden?'))
-szerda= (input('Milyen órád van szerdán?'))
-csutortok= (input('Milyen órád van csütörtök?'))
-pentek= (input('Milyen órád van péntek?'))
+ nap = input('Órarend (h,k,sz,cs,p):')
+    if nap == 'h':
+        print('1.óra:MATEK')
+        print('2.óra:TESI')
 
 
+    elif nap == 'k':
+        print('1.óra:KÖRNYEZET')
+        print('2.óra:TESI')
 
+        elif nap == 'sz':
+        print('1.óra:MATEK')
+        print('2.óra:KÖRNYEZET')
 
-pont = int(input('Melyik nap oraendjét akarok látni '))
-if (pont==hetfo):
-  print('Ilyen órád lesz ma ', hetfo)
-elif (pont==kedd):
-    print('Ilyen órád lesz ma ', kedd)
+        elif nap == 'cs':
+        print('1.óra:KÖRNYEZET')
+        print('2.óra:MAGYAR')
 
-elif (pont==szerda):
-    print('Ilyen órád lesz ma ', szerda)
+        elif nap == 'p':
+        print('1.óra:KÖRNYEZET')
+        print('2.óra:MATEK')
 
-elif (pont==csutortok):
-    print('Ilyen órád lesz ma ', csutortok) 
-
-elif (pont==pentek):
-    print('Ilyen órád lesz ma ', pentek) 
+        else:
+            print('Nem jó a válaszod')

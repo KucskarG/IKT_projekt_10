@@ -1,27 +1,66 @@
-szam = int(input('Adj meg egy számot! '))
-szam2 = int(input('Adj meg egy számot! '))
-szam3 = int(input('Adj meg egy számot! '))
-x= min(szam,szam2,szam3)
-print ('a legkissebb szám: ' , x)
+    print('Melyik a legnagyobb')
 
-szam = int(input('Adj meg egy számot! '))
-szam2 = int(input('Adj meg egy számot! '))
-szam3 = int(input('Adj meg egy számot! '))
-x= max(szam,szam2,szam3)
-print ('a legnagyobb szám: ' , x)
+x = int(input('Első'))
+y = int(input('Második')) 
+z = int(input('Harmadik'))
+if y < x > z : 
+    print('Első a nagyobb')
 
+elif z < y > x : 
+    print('Második a nagyobb')
 
+elif x < z > y : 
+    print('Harmadik a nagyobb')
 
-pont = int(input('Ird be a pontszámod: '))
-if (pont < 50):
-  print('Egyes')
-elif (50 <=pont<60 ):
-    print('Kettes')
-
-elif (60 <=pont<70 ):
-    print('Hármas')
-
-elif (70 <=pont<85 ):
-    print('Négyes')   
 else:
-    print('Ötös')
+    print('Irj mást')
+
+    
+
+
+
+
+
+    print('Melyik a legkissebb')
+    
+    x = int(input('Első'))
+y = int(input('Második')) 
+z = int(input('Harmadik'))
+if y > x < z : 
+    print('Első a kisebb')
+
+elif z > y < x : 
+    print('Második a kisebb')
+
+elif x > z < y : 
+    print('Harmadik a kisebb')
+
+else:
+    print('Irj mást')
+
+
+
+    nap = input('Órarend (h,k,sz,cs,p):')
+    if nap == 'h':
+        print('1.óra:MATEK')
+        print('2.óra:TESI')
+
+
+    elif nap == 'k':
+        print('1.óra:KÖRNYEZET')
+        print('2.óra:TESI')
+
+        elif nap == 'sz':
+        print('1.óra:MATEK')
+        print('2.óra:KÖRNYEZET')
+
+        elif nap == 'cs':
+        print('1.óra:KÖRNYEZET')
+        print('2.óra:MAGYAR')
+
+        elif nap == 'p':
+        print('1.óra:KÖRNYEZET')
+        print('2.óra:MATEK')
+
+        else:
+            print('Nem jó a válaszod')
